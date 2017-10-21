@@ -77,6 +77,29 @@
     width: 100%;
 }
 
+.After-form {
+    background-color: #215543;
+    height: 3rem;
+    padding: 1rem;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.Facebook-share {
+    width: 73px;
+    height: 28px;
+    border: none;
+    overflow: hidden;
+    border: transparent;
+    position: absolute;
+    left: calc((100% - 48rem) / 2);
+}
+
+.Note {
+    position: absolute;
+    right: calc((100% - 48rem) / 2);
+}
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-width: 800px) {
     html {

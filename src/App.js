@@ -30,11 +30,9 @@ class App extends Component {
                             בעקרון מדובר בפרוייקט צילום פורטרטים, אבל בגלל שכולנו כאלה מדהימים יש מצב שעל הדרך נשתלט על
                             העולם. <br/>
                             אז אם גם אתם, כמוני, החלטתם לטפח את הצד החזק שלכם (ז״א שיש לכם קרחת וזקן) אני ממש אשמח
-                            שתשתתפו בפרוייקט. בינתיים אתם רק צריכים להירשם ובקרוב ממש תקבלו עדכונים.
+                            שתשתתפו בפרוייקט.<br/> בינתיים אתם רק צריכים להירשם ובקרוב ממש תקבלו עדכונים.
                         </p>
                         <p dir="rtl">רעיונות יתקבלו בברכה!
-                        </p>
-                        <p dir="rtl">*הפנייה מנוסחת בלשון זכר אבל פונה רק לגברים עם קרחת וזקן
                         </p>
                     </div>
 
@@ -44,6 +42,11 @@ class App extends Component {
                         src="https://docs.google.com/forms/d/e/1FAIpQLSelMsjwb02yynL5EeBKGLUEevpkByEmGVmzfKIuVhNw3pCzzw/viewform?embedded=true"
                         width="760" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading...
                 </iframe>
+                <div className="After-form">
+                    <div dir="rtl" className="Note">*הפנייה מנוסחת בלשון זכר אבל פונה רק לגברים עם קרחת וזקן
+                    </div>
+                    <iframe  className="Facebook-share" src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fcommander-arnold-22868.netlify.com%2F&layout=button&size=large&mobile_iframe=true&appId=891194774369127&width=73&height=28"></iframe>
+                </div>
             </div>
 
         );
