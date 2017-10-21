@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Alef';
 }
 
 .App-header {
@@ -12,5 +13,13 @@
 
 .App-title {
   font-size: 6em;
-  font-family: Avenir;
+  font-weight: bold;
+}
+
+.Text {
+    padding: 10em;
+}
+
+.Form {
+  width: 100%;
 }

@@ -9,6 +9,7 @@ class App extends Component {
         <div className="App-header">
           <h1 dir="rtl" className="App-title">קרחי העולם התפקדו!</h1>
         </div>
+        <div className="Text">
           <p dir="rtl">אהלן חברים קרחים ומזוקנים שלי.
               קוראים לי עמית שמעוני ואני אמן בוגר בצלאל.
               לינק לאתר.
@@ -20,7 +21,8 @@ class App extends Component {
           </p>
           <p dir="rtl">*הפנייה מנוסחת בלשון זכר אבל פונה רק לגברים עם קרחת וזקן
           </p>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSelMsjwb02yynL5EeBKGLUEevpkByEmGVmzfKIuVhNw3pCzzw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>      </div>
+      </div>
+      <iframe className="Form" src="https://docs.google.com/forms/d/e/1FAIpQLSelMsjwb02yynL5EeBKGLUEevpkByEmGVmzfKIuVhNw3pCzzw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>      </div>
     );
   }
 }
