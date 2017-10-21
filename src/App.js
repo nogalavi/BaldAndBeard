@@ -40,15 +40,14 @@ class App extends Component {
 
                 <iframe className="Form"
                         src="https://docs.google.com/forms/d/e/1FAIpQLSelMsjwb02yynL5EeBKGLUEevpkByEmGVmzfKIuVhNw3pCzzw/viewform?embedded=true"
-                        width="760" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading...
+                        width="760" height="900">Loading...
                 </iframe>
                 <div className="After-form">
                     <div dir="rtl" className="Note">*הפנייה מנוסחת בלשון זכר אבל פונה רק לגברים עם קרחת וזקן
                     </div>
-                    <iframe  className="Facebook-share" src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fcommander-arnold-22868.netlify.com%2F&layout=button&size=large&mobile_iframe=true&appId=891194774369127&width=73&height=28"></iframe>
+                    <iframe className="Facebook-share" src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fhairbnb.netlify.com%2F&layout=button&size=large&mobile_iframe=true&appId=891194774369127&width=73&height=28"></iframe>
                 </div>
             </div>
-
         );
     }
 }
