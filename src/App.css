@@ -11,15 +11,55 @@
   color: white;
 }
 
-.App-title {
-  font-size: 6em;
+.Title {
+    width: 48rem;
+    position: absolute;
+    height: 17.1rem;
+    top: 7.2rem;
+    left: calc((100% - 48rem)/2);
+}
+
+.Title-text {
+  width: 100%;
+  z-index: 1;
+  font-size: 5.7em;
   font-weight: bold;
+  text-shadow: 5px 4px #f4b006;
+  position: absolute;
+}
+
+.Shadow {
+    position: absolute;
+    z-index: 0;
+    top: 5.2rem;
+    left: 5rem;
+    width: 97%;
+    background-color: #f4b006;
+    height: 12rem;
+    -webkit-transform: skew(36deg);
+    -moz-transform: skew(47deg);
+    -o-transform: skew(47deg);
+}
+
+.Image {
+    position: relative;
+    top: 15rem;
+    float: left;
+    margin-left: 0.5em;
+    width: 23rem;
 }
 
 .Text {
-    padding: 10em;
+    padding: 2%;
 }
 
 .Form {
   width: 100%;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .Image {
+        display: none;
+    }
 }
