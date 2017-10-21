@@ -127,4 +127,20 @@
     .First-part {
         padding-top: 20rem;
     }
+
+    .After-form {
+        height: 10rem;
+    }
+
+    .Note {
+        display: block;
+        position: relative;
+        right: 0;
+    }
+
+    .Facebook-share {
+        position: relative;
+        display: block;
+        left: 0;
+    }
 }
