@@ -114,6 +114,7 @@
 
     .Title {
         left: inherit;
+        width: 100%;
     }
 
     .Image {
