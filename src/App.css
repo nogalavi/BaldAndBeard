@@ -13,6 +13,7 @@
 
 .Title {
     width: 48rem;
+    max-width: 100%;
     position: absolute;
     height: 17.1rem;
     top: 7.2rem;
@@ -109,6 +110,10 @@
 
     .Shadow {
         display: none;
+    }
+
+    .Title {
+        left: inherit;
     }
 
     .Image {
