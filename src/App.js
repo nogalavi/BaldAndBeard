@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-// import father from './father.png';
-import father from './topsecret.png';
+import father from './father.png';
+// import father from './topsecret.png';
 import './App.css';
 
 class App extends Component {
